@@ -1,0 +1,15 @@
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Application\bin\Debug\net6.0\DroneApplication.Application.deps.json
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Application\bin\Debug\net6.0\DroneApplication.Application.dll
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Application\bin\Debug\net6.0\DroneApplication.Application.pdb
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Application\bin\Debug\net6.0\DroneApplication.Domain.dll
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Application\bin\Debug\net6.0\DroneApplication.Domain.pdb
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Application\obj\Debug\net6.0\DroneApplication.Application.csproj.AssemblyReference.cache
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Application\obj\Debug\net6.0\DroneApplication.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Application\obj\Debug\net6.0\DroneApplication.Application.AssemblyInfoInputs.cache
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Application\obj\Debug\net6.0\DroneApplication.Application.AssemblyInfo.cs
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Application\obj\Debug\net6.0\DroneApplication.Application.csproj.CoreCompileInputs.cache
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Application\obj\Debug\net6.0\DroneApplication.Application.csproj.CopyComplete
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Application\obj\Debug\net6.0\DroneApplication.Application.dll
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Application\obj\Debug\net6.0\refint\DroneApplication.Application.dll
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Application\obj\Debug\net6.0\DroneApplication.Application.pdb
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Application\obj\Debug\net6.0\ref\DroneApplication.Application.dll
