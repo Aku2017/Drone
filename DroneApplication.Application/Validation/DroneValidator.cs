@@ -13,9 +13,7 @@ namespace DroneApplication.Application.DroneValidatior
         public string serialNumber { get; set; }
         public DroneValidator()
         {
-            
-            BuildRules();
-
+           BuildRules();
         }
 
         public void BuildRules()

@@ -47,6 +47,12 @@ namespace DroneApplication
             _serviceCollections = services;
             services.AddControllers();
 
+            //var activeDatabase = Configuration["ActiveDatabase"];
+            //var databaseConnectionString = Configuration.GetConnectionString(activeDatabase);
+            //services.Configure<MongoDbOptions>(options =>
+            //{
+            //    options.ConnectionString = databaseConnectionString;
+            //});
 
             services.AddDbContext<DroneDbContext>(
                 m => m.UseSqlite(Configuration.GetConnectionString("DroneDB")), ServiceLifetime.Singleton);

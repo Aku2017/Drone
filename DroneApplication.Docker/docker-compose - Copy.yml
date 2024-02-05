@@ -1,0 +1,38 @@
+version: '3.8'
+services:
+  mongodb:
+    image: mongo
+    container_name: drone_mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: drone_database
+    networks:
+      - drone_network
+
+  postgresql:
+    image: postgres
+    container_name: drone_postgresql
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: drone_database
+      POSTGRES_USER: drone_user
+      POSTGRES_PASSWORD: drone_password
+    networks:
+      - drone_network
+
+  azure_table:
+    image: mcr.microsoft.com/azure-storage/azurite
+    container_name: drone_azure_table
+    ports:
+      - "10002:10002"
+      - "10003:10003"
+      - "10004:10004"
+    networks:
+      - drone_network
+    environment:
+      - AZURITE_ACCOUNTS_PATH=/data/accounts
+
+networks:
+  drone_network:

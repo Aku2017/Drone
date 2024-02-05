@@ -1,0 +1,12 @@
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Docker\bin\Debug\net6.0\DroneApplication.Docker.deps.json
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Docker\bin\Debug\net6.0\DroneApplication.Docker.dll
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Docker\bin\Debug\net6.0\DroneApplication.Docker.pdb
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Docker\obj\Debug\net6.0\DroneApplication.Docker.csproj.AssemblyReference.cache
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Docker\obj\Debug\net6.0\DroneApplication.Docker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Docker\obj\Debug\net6.0\DroneApplication.Docker.AssemblyInfoInputs.cache
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Docker\obj\Debug\net6.0\DroneApplication.Docker.AssemblyInfo.cs
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Docker\obj\Debug\net6.0\DroneApplication.Docker.csproj.CoreCompileInputs.cache
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Docker\obj\Debug\net6.0\DroneApplication.Docker.dll
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Docker\obj\Debug\net6.0\refint\DroneApplication.Docker.dll
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Docker\obj\Debug\net6.0\DroneApplication.Docker.pdb
+C:\Users\Mike\source\repos\DroneApplication\DroneApplication.Docker\obj\Debug\net6.0\ref\DroneApplication.Docker.dll

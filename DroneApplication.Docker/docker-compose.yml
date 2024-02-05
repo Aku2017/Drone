@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  mongodb:
+    image: mongo
+    container_name: drone_mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: drone_database
+    networks:
+      - drone_network
+networks:
+  drone_network:

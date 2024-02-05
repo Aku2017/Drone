@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroneApplication", "DroneApplication\DroneApplication.csproj", "{4F6D8EC9-A65B-414D-A448-D7D593F5B259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DroneApplication", "DroneApplication\DroneApplication.csproj", "{4F6D8EC9-A65B-414D-A448-D7D593F5B259}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroneApplication.Infrastrcuture", "DroneApplication.Infrastrcuture\DroneApplication.Infrastrcuture.csproj", "{C9F7C475-E6A0-4A46-8A35-C486E2FFB9CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DroneApplication.Domain", "DroneApplication.Domain\DroneApplication.Domain.csproj", "{720E165B-3D81-4DE2-8D95-E4DADFE4B62E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroneApplication.Domain", "DroneApplication.Domain\DroneApplication.Domain.csproj", "{720E165B-3D81-4DE2-8D95-E4DADFE4B62E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DroneApplication.Application", "DroneApplication.Application\DroneApplication.Application.csproj", "{6708A896-71E5-41BE-8497-038349EA2560}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroneApplication.Application", "DroneApplication.Application\DroneApplication.Application.csproj", "{6708A896-71E5-41BE-8497-038349EA2560}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DroneApplication.API", "DroneApplication.API\DroneApplication.API.csproj", "{F2C072AB-00CD-402E-B2E3-EEADB499FE85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroneApplication.API", "DroneApplication.API\DroneApplication.API.csproj", "{F2C072AB-00CD-402E-B2E3-EEADB499FE85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DroneApplication.Docker", "DroneApplication.Docker\DroneApplication.Docker.csproj", "{C4B1356D-4149-44E9-AFA1-D31418D17A45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DroneApplication.Infrastrcuture", "DroneApplication.Infrastrcuture\DroneApplication.Infrastrcuture.csproj", "{05778E25-970A-41EC-ACF8-9D699E540248}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +25,6 @@ Global
 		{4F6D8EC9-A65B-414D-A448-D7D593F5B259}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F6D8EC9-A65B-414D-A448-D7D593F5B259}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F6D8EC9-A65B-414D-A448-D7D593F5B259}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C9F7C475-E6A0-4A46-8A35-C486E2FFB9CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C9F7C475-E6A0-4A46-8A35-C486E2FFB9CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C9F7C475-E6A0-4A46-8A35-C486E2FFB9CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C9F7C475-E6A0-4A46-8A35-C486E2FFB9CB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{720E165B-3D81-4DE2-8D95-E4DADFE4B62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{720E165B-3D81-4DE2-8D95-E4DADFE4B62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{720E165B-3D81-4DE2-8D95-E4DADFE4B62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +37,14 @@ Global
 		{F2C072AB-00CD-402E-B2E3-EEADB499FE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2C072AB-00CD-402E-B2E3-EEADB499FE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2C072AB-00CD-402E-B2E3-EEADB499FE85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B1356D-4149-44E9-AFA1-D31418D17A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B1356D-4149-44E9-AFA1-D31418D17A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B1356D-4149-44E9-AFA1-D31418D17A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B1356D-4149-44E9-AFA1-D31418D17A45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05778E25-970A-41EC-ACF8-9D699E540248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05778E25-970A-41EC-ACF8-9D699E540248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05778E25-970A-41EC-ACF8-9D699E540248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05778E25-970A-41EC-ACF8-9D699E540248}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
